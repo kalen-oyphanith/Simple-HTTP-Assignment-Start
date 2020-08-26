@@ -1,0 +1,30 @@
+{
+    "name": "simple-http-assignment-start",
+    "version": "1.0.0",
+    "engines": {
+        "node": "12.18.3",
+        "npm": "6.14.6"
+    },
+    "description": "A simple HTTP server",
+    "main": "./src/server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "preteset": "eslint ./src --fix",
+        "test": "echo \"Tests complete\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kalen-oyphanith/Simple-HTTP-Assignment-Start.git"
+    },
+    "author": "Kalen Oyphanith",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/kalen-oyphanith/Simple-HTTP-Assignment-Start/issues"
+    },
+    "homepage": "https://github.com/kalen-oyphanith/Simple-HTTP-Assignment-Start#readme",
+    "devDependencies": {
+        "eslint": "^7.7.0",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-plugin-import": "^2.22.0"
+    }
+}
